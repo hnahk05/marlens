@@ -1,6 +1,15 @@
-# MarLens
+## Giới thiệu
 
-MarLens là ứng dụng bản đồ hỗ trợ shop mỹ phẩm online chọn xã/phường ở Hà Nội để mở điểm giao nhận. Nhóm dùng WeMap để hiển thị 34 tỉnh và thí điểm phân tích 126 xã/phường Hà Nội. Người dùng có thể đối chiếu nguồn số liệu và điều chỉnh trọng số của chỉ số MPI để so sánh các khu vực. Đây là phạm vi dự kiến của sản phẩm.
+**MarLens** là web app bản đồ thị trường Việt Nam **đa ngành**, xây dựng trên nền bản đồ số **WeMap**. Người dùng chọn ngành kinh doanh, xem các lớp dữ liệu dân số, mật độ, điểm bán và đối thủ trên bản đồ, rồi dùng chỉ số tiềm năng thị trường (MPI) để xếp hạng những khu vực nên ưu tiên khảo sát.
+
+**Phạm vi MVP**
+- Hiển thị ranh giới 34 tỉnh, thành phố; thí điểm phân tích 126 xã/phường của Hà Nội.
+- 6 ngành: Làm đẹp – mỹ phẩm, Nhà cửa – Đời sống, Thời trang, Bách hóa – Thực phẩm, Điện thoại – Điện tử, Ăn uống (không gồm y tế, dược).
+- Chọn ngành thì hệ thống đổi nhóm đối thủ và trọng số mặc định; người dùng có thể chỉnh trọng số MPI để xếp hạng và so sánh khu vực.
+- Mỗi lớp dữ liệu ghi rõ nguồn và kỳ số liệu.
+- Kịch bản demo: shop mỹ phẩm online chọn nơi mở điểm giao nhận, sau đó đổi sang ngành Ăn uống để so sánh.
+
+> MPI dùng để chọn khu vực ưu tiên khảo sát, không dự báo doanh thu.
 
 ## Chạy lần đầu
 
